@@ -1,0 +1,21 @@
+// Array of words from the searched Phrase
+
+// find words by looking for alpha chars
+// int to track start of word, int to track current positon
+//  add to array when non alpha word is reached
+
+// outerloop, track start of possible match
+
+  // check for next word, keep checking, in order,
+  // until all words have been matched, check for exact
+  // matching words by checking that letters before & after
+  // match are non alpha, test for out of bounds
+
+  // if end of lyric string is reached without a match
+  // stop looking no more matches possible
+
+  // after finding second word, find last index of first word
+  // (finds better match), update starting index
+
+  // when a match is found, check if ideal (can stop looking)
+  // check if better than previous best
